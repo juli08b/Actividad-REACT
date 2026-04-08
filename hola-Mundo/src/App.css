@@ -1,3 +1,9 @@
+.CONTENEDOR {
+  padding: 20px;
+  background-color: #d4e9ff;
+
+}
+
 /* Estilo para cada uno de los parrafos */
 p {
   font-size: 16px;
@@ -6,24 +12,18 @@ p {
   text-align: center;
 }
 
-/* Estilo para el contenedor */
-div {
-  margin: 0 auto;/* Centra todo el bloque en el medio de la pantalla */
-  max-width: 1300px;
-}
+
 
 nav {
-  background-color: rgb(254, 184, 224);
+  background-color: rgb(161, 200, 241);
   padding: 20px;
-  display: flex;
+  display: flex; /* Utiliza flex para organizar el contenido del nav */
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Centra los elementos horizontalmente */
   margin-bottom: 20px; /* Agrega espacio entre el nav y el main */
-  font-weight: 500;
-  border-radius: 0 0 15px 15px;
-  
-
+  border-radius: 30px;
 }
+
 main {
   background-color: rgb(255, 255, 255);
   padding: 20px;
@@ -41,10 +41,9 @@ section {
 }
 
 aside {
-  background-color:rgb(248, 248, 248);
+  background-color:rgb(226, 249, 255);
   padding: 20px;
   margin-bottom: 60px;
-  
   text-align: center;
 }
 
@@ -53,12 +52,13 @@ h2, h3, h4 {
   color: #2c4f72;   
   font-weight: bold; /* Resalta los títulos */
   font-size: 16px;
+  
 }
 
 footer {
   padding: 20px;
   text-align: center; /* Centra el texto del pie de página */
-  background-color: rgb(254, 184, 224);
+  background-color: rgb(161, 200, 241);
 }
 
 
